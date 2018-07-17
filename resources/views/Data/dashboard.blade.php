@@ -32,43 +32,11 @@
           <td>{{$datarental->biaya}}</td>
           <td>
             <a href="{{ Route('delete', ['id' => $datarental->id]) }}" class="btn btn-danger btn-xs" >Hapus</a>
-            {{-- <a href="{{ Route('delete')}}" class="btn btn-danger btn-xs">Hapus</a> --}}
 						<a href="{{ Route('edit', ['id' => $datarental->id]) }}" class="btn btn-warning btn-xs">Edit</a>
-            {{-- <button class="btn btn-xs btn-danger" type="submit" onclick="return confirm('Yakin ingin menghapus data?')">Delete</button>
-             --}}
-
           </td>
         </tr>
 
       @endforeach
-      {{-- <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td><a href="#" class="btn btn-danger btn-xs">Hapus</a>
-        	<a href="#" class="btn btn-warning btn-xs">Edit</a></td>
-      </tr>
-      <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td><a href="#" class="btn btn-danger btn-xs">Hapus</a>
-        	<a href="#" class="btn btn-warning btn-xs">Edit</a></td>
-      </tr>
-      <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td><a href="#" class="btn btn-danger btn-xs">Hapus</a>
-        	<a href="#" class="btn btn-warning btn-xs">Edit</a></td>
-      </tr>
-      <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td><a href="#" class="btn btn-danger btn-xs">Hapus</a>
-        	<a href="#" class="btn btn-warning btn-xs">Edit</a></td>
-      </tr> --}}
     </tbody>
   </table>
 </div>

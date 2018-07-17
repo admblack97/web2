@@ -34,9 +34,6 @@ class RentalController extends Controller
   		$rental->save();
 
   		return redirect(Route('dashboard'))->with('alert-success','Berhasil Menambahkan Data!');
-  		// return redirect()->route('index');
-  		// return redirect()->action('BarangController@index');
-  		// return Redirect::action('BarangController@index');
   	}
 
   	public function delete($id){

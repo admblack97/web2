@@ -41,7 +41,7 @@
 
 <!-- Footer -->
   <footer style="position:fixed; left:0; bottom:0; width:100%; text-align:center; background-color:black; color:white; padding:8px;">
-       <h4>Copyright UNISKA FTI 4A REG PAGI BJB 2018</h4>
+       <h4>Copyright &copy; UNISKA FTI 4A REG PAGI BJB 2018</h4>
 </footer>
 <!-- Akhir -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
